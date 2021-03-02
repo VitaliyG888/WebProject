@@ -1,0 +1,91 @@
+.features__container {
+  max-width: 1118px;
+  padding-top: 162px;
+  padding-bottom: 325px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__title {
+  margin-bottom: 27px;
+}
+
+.features__subtitle {
+  margin-bottom: 80px;
+  max-width: 602px;
+  text-align: center;
+}
+
+.features__block {
+  width: 100%;
+}
+
+.features__chatbot {
+  position: relative;
+  margin-right: 43px;
+  width: 755px;
+  height: 659px;
+  -webkit-filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  background-image: url("../../img/ChatBot2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features__cardsblock {
+  padding-top: 84px;
+}
+
+.features__linechart {
+  position: absolute;
+  bottom: -100px;
+  right: -28px;
+}
+
+.fetures__card {
+  width: 269px;
+}
+
+.fetures__card.card1 {
+  background-image: url(../../img/ic_round-restaurant-menu.png);
+  background-position: 0 -10px;
+  background-size: 32px 62px;
+  background-repeat: no-repeat;
+}
+
+.fetures__card.card2 {
+  background-image: url(../../img/mdi_alien-outline.png);
+  background-position: 0 -10px;
+  background-size: 33px 60px;
+  background-repeat: no-repeat;
+}
+
+.fetures__card.card3 {
+  background-image: url(../../img/mdi_all-inclusive.png);
+  background-position: 0% -10%;
+  background-size: 41px 53px;
+  background-repeat: no-repeat;
+}
+
+.card__title {
+  margin-bottom: 20px;
+  margin-left: 45px;
+  width: 150px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+.card3 .card__title {
+  margin-left: 55px;
+}
+
+.card__description {
+  margin-left: 10px;
+  width: 245px;
+}
+
+.fetures__card:not(:last-child) {
+  margin-bottom: 69px;
+}

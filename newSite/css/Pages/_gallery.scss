@@ -1,0 +1,40 @@
+.gallery__container {
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 210px;
+  max-width: 1117px;
+}
+
+.gallery__title {
+  margin-bottom: 20px;
+}
+
+.gallery__subtitle {
+  margin-bottom: 54px;
+  width: 591px;
+  text-align: center;
+}
+
+.gallery__slides {
+  margin-bottom: 44px;
+  width: 100%;
+}
+
+.slides__rec {
+  border-radius: 10px;
+}
+
+.slides__top {
+  margin: 0 auto;
+  max-width: 1034px;
+  justify-content: space-around;
+  margin-bottom: 44px;
+}
+
+.slides__bottom {
+  justify-content: space-between;
+}
+
+.gallery__btn {
+  padding: 14px 40px;
+}

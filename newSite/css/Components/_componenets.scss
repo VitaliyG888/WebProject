@@ -1,0 +1,116 @@
+*:focus {
+  outline: none;
+}
+
+p {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $white;
+}
+
+h1 {
+  font-family: Graphik;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 88px;
+}
+
+h2 {
+  font-family: Graphik;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+}
+
+.subtitle {
+  font-family: Graphik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: $white;
+}
+
+.black-btn {
+  background: transparent;
+  border: 1px solid $white;
+  font-family: "Graphik", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: $white;
+  cursor: pointer;
+}
+
+.blue-btn {
+  background-color: $blue;
+  border: none;
+  font-family: "Graphik", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: $white;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:focus,
+button:hover,
+button:active {
+  box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+
+.reset-btn {
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.liststyle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: $white;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1260px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  overflow: hidden;
+  border: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}

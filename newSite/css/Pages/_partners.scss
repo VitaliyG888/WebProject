@@ -1,0 +1,27 @@
+.partners__container {
+  padding-bottom: 210px;
+  max-width: 864px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners__title {
+  margin-bottom: 20px;
+}
+
+.partners__subtitle {
+  margin-bottom: 60px;
+  width: 590px;
+  text-align: center;
+}
+
+.partners__logotips {
+  margin-bottom: 54px;
+  width: 100%;
+  max-height: 67px;
+  justify-content: space-between;
+}
+
+.partners__btn {
+  padding: 15px 40px;
+}

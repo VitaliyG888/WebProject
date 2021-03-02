@@ -151,6 +151,7 @@ h2 {
 /* HEADER */
 
 .header {
+  margin-top: 12px;
   padding-bottom: 11px;
   border-bottom: 1px solid var(--LineBackground);
   max-height: 72px;
@@ -293,19 +294,17 @@ h2 {
   text-align: left;
   width: 328px;
   height: 256px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  -webkit-transform: translateX(-110%);
-  -ms-transform: translateX(-110%);
-  transform: translateX(-110%);
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  visibility: visible !important;
   opacity: 0;
 }
 
 .experience__heading.active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  animation-name: slideHeading;
+  -webkit-animation-name: slideHeading;
   opacity: 1;
 }
 
@@ -315,13 +314,17 @@ h2 {
   background-image: url(../img/experience.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  visibility: visible !important;
   opacity: 0;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
 }
 
 .experience__image.active {
+  animation-name: slideImage;
+  -webkit-animation-name: slideImage;
   opacity: 1;
 }
 
@@ -335,19 +338,17 @@ h2 {
   font-size: 14px;
   line-height: 23px;
   color: var(--GrayText);
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  -webkit-transform: translateX(110%);
-  -ms-transform: translateX(110%);
-  transform: translateX(110%);
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  visibility: visible !important;
   opacity: 0;
 }
 
 .experience__description.active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  animation-name: slideDescription;
+  -webkit-animation-name: slideDescription;
   opacity: 1;
 }
 
@@ -786,20 +787,18 @@ h2 {
 
 .advantages {
   margin-top: 209px;
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  visibility: visible !important;
   opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: translateY(20%);
-  -ms-transform: translateY(20%);
-  transform: translateY(20%);
 }
 
 .advantages.active {
+  animation-name: slideAdvantages;
+  -webkit-animation-name: slideAdvantages;
   opacity: 1;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
 }
 
 .advantages__top {
@@ -848,20 +847,18 @@ h2 {
 
 .outsourcing {
   margin-top: 200px;
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  visibility: visible !important;
   opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: translateY(20%);
-  -ms-transform: translateY(20%);
-  transform: translateY(20%);
 }
 
 .outsourcing.active {
+  animation-name: slideAdvantages;
+  -webkit-animation-name: slideAdvantages;
   opacity: 1;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
 }
 
 .outsourcing__top {
@@ -922,19 +919,17 @@ h2 {
   text-align: left;
   width: 328px;
   height: 256px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: translateX(-110%);
-  -ms-transform: translateX(-110%);
-  transform: translateX(-110%);
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  visibility: visible !important;
   opacity: 0;
 }
 
 .mistakes__heading.active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  animation-name: slideHeading;
+  -webkit-animation-name: slideHeading;
   opacity: 1;
 }
 
@@ -944,13 +939,17 @@ h2 {
   background-image: url(../img/mistakes.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  visibility: visible !important;
   opacity: 0;
-  -webkit-transition: opacity 0.7s ease-in-out;
-  -o-transition: opacity 0.7s ease-in-out;
-  transition: opacity 0.7s ease-in-out;
 }
 
 .mistakes__image.active {
+  animation-name: slideImage;
+  -webkit-animation-name: slideImage;
   opacity: 1;
 }
 
@@ -964,19 +963,17 @@ h2 {
   font-size: 14px;
   line-height: 23px;
   color: var(--GrayText);
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: translateX(110%);
-  -ms-transform: translateX(110%);
-  transform: translateX(110%);
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  visibility: visible !important;
   opacity: 0;
 }
 
 .mistakes__description.active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  animation-name: slideDescription;
+  -webkit-animation-name: slideDescription;
   opacity: 1;
 }
 
@@ -1278,6 +1275,104 @@ h2 {
 
 .footaer__tel-link {
   margin-bottom: 10px;
+}
+
+/* animashen */
+
+@keyframes slideHeading {
+  0% {
+    transform: translateX(-150%);
+  }
+  50% {
+    transform: translateX(8%);
+  }
+  65% {
+    transform: translateX(-4%);
+  }
+  80% {
+    transform: translateX(4%);
+  }
+  95% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideImage {
+  0% {
+    transform: rotate(0deg) scaleY(0);
+    opacity: 0.1;
+  }
+  20% {
+    transform: rotate(-2deg) scaleY(50%);
+    opacity: 0.3;
+  }
+  35% {
+    transform: rotate(2deg) scaleY(10%);
+    opacity: 0.5;
+  }
+  50% {
+    transform: rotate(-2deg) scaleY(60%);
+    opacity: 0.4;
+  }
+  65% {
+    transform: rotate(1deg) scaleY(20%);
+    opacity: 0.8;
+  }
+  80% {
+    transform: rotate(-1deg) scaleY(80%);
+  }
+  100% {
+    transform: rotate(0deg) scaleY(100%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDescription {
+  0% {
+    transform: translateX(150%);
+  }
+  50% {
+    transform: translateX(-8%);
+  }
+  65% {
+    transform: translateX(4%);
+  }
+  80% {
+    transform: translateX(-4%);
+  }
+  95% {
+    transform: translateX(2%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideAdvantages {
+  0% {
+    transform: rotate(0deg) scaleY(0.6);
+  }
+  20% {
+    transform: rotate(-2deg) scaleY(1.05);
+  }
+  35% {
+    transform: rotate(2deg) scaleY(1);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  65% {
+    transform: rotate(1deg);
+  }
+  80% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @media (max-width: 1450px) {

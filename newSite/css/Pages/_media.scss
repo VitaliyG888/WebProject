@@ -1,0 +1,27 @@
+.media__container {
+  padding-bottom: 290px;
+  max-width: 1247px;
+}
+
+.media__content {
+  background-color: $bcgfeature;
+  border-radius: 25px;
+  background-image: url(../../img/LineChartt.png);
+  background-size: 48% 99%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.content__block {
+  padding: 79px 47px 78px 102px;
+}
+
+.media__title {
+  margin-bottom: 37px;
+  max-width: 480px;
+}
+
+.media__btn {
+  margin-left: -10px;
+  padding: 15px 67px;
+}

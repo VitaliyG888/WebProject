@@ -1,0 +1,68 @@
+.footer__container {
+  padding-bottom: 107px;
+  max-width: 1059px;
+  justify-content: space-between;
+}
+
+.footer__nav:not(:last-child) {
+  margin-right: 96px;
+}
+
+.footer__title {
+  margin-bottom: 41px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.address__destination {
+  margin-bottom: 16px;
+  padding-left: 54px;
+  width: 317px;
+  padding-top: 9px;
+  height: 43px;
+  background-image: url(../../img/bx_bx-map.png);
+  background-repeat: no-repeat;
+  background-size: 44px;
+  background-position: left top;
+
+  & span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: $white;
+  }
+}
+
+.address__tel {
+  margin-bottom: 32px;
+  padding-left: 45px;
+  padding-top: 6px;
+  width: 317px;
+  height: 43px;
+  background-image: url(../../img/ic_baseline.png);
+  background-repeat: no-repeat;
+  background-size: 34px 41px;
+  background-position: left top;
+
+  & a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: $white;
+  }
+}
+
+.address__soc {
+
+  & svg:not(:last-child) {
+    margin-right: 33px;
+  }
+}

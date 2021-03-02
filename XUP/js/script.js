@@ -31,42 +31,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function scrolling(e) {
 
+
         if (isFullyVisible(experienceImageEl)) {
             experienceImageEl.classList.add("active");
-        } else {
-            experienceImageEl.classList.remove("active");
         }
 
         if (isFullyVisible(experienceImageEl)) {
             experienceHeading.classList.add("active");
-        } else {
-            experienceHeading.classList.remove("active");
         }
 
         if (isFullyVisible(experienceImageEl)) {
             experienceDescription.classList.add("active");
-        } else {
-            experienceDescription.classList.remove("active");
         }
 
 
 
         if (isFullyVisible(mistakesImageEl)) {
             mistakesImageEl.classList.add("active");
-        } else {
-            mistakesImageEl.classList.remove("active");
         }
 
         if (isFullyVisible(mistakesImageEl)) {
             mistakesHeading.classList.add("active");
-        } else {
-            mistakesHeading.classList.remove("active");
         }
 
         if (isFullyVisible(mistakesImageEl)) {
             mistakesDescription.classList.add("active");
-        } else {
-            mistakesDescription.classList.remove("active");
         }
 
 
