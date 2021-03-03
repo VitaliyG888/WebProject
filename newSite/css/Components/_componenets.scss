@@ -36,22 +36,27 @@ h2 {
 }
 
 .black-btn {
+  position: relative;
   background: transparent;
   border: 1px solid $white;
   font-family: "Graphik", sans-serif;
   font-weight: 500;
   font-size: 17px;
+  overflow: hidden;
   color: $white;
+  
   cursor: pointer;
 }
 
 .blue-btn {
-  background-color: $blue;
+  position: relative;
   border: none;
+  background: transparent;
   font-family: "Graphik", sans-serif;
   font-weight: 500;
   font-size: 17px;
   color: $white;
+  overflow: hidden;
   cursor: pointer;
 }
 

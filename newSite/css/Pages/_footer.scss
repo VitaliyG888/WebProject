@@ -20,6 +20,25 @@
   margin-bottom: 25px;
 }
 
+.footer__link {
+  position: relative;
+}
+
+.footer__link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: $white;
+  transition: width 0.2s ease-in;
+}
+
+.footer__link:hover::before {
+  width: 100%;
+}
+
 .address__destination {
   margin-bottom: 16px;
   padding-left: 54px;
@@ -37,7 +56,12 @@
     line-height: 24px;
     letter-spacing: 0.2px;
     color: $white;
+    transition: color 0.2s ease-in;
   }
+}
+
+.address__destination:hover span {
+  color: $blue;
 }
 
 .address__tel {
@@ -57,12 +81,17 @@
     line-height: 24px;
     letter-spacing: 0.2px;
     color: $white;
+    transition: color 0.2s ease-in;
   }
+}
+
+.address__tel:hover a {
+  color: $blue;
 }
 
 .address__soc {
 
-  & svg:not(:last-child) {
+  & a:not(:last-child) {
     margin-right: 33px;
   }
 }

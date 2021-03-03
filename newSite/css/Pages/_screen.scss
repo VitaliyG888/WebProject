@@ -3,10 +3,12 @@
 }
 
 .screen__container {
-  position: relative;
-  margin: 0 auto;
-  padding-bottom: 450px;
-  width: 1450px;
+  max-width: 100%;
+  height: 992px;
+  background-image: url(../../img/screens.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 99%;
 }
 
 .screen__dashboard {

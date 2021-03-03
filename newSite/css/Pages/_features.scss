@@ -18,12 +18,13 @@
 
 .features__block {
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .features__chatbot {
   position: relative;
   margin-right: 43px;
-  width: 755px;
+  width: 69.4%;
   height: 659px;
   -webkit-filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
   filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
