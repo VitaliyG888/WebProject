@@ -395,7 +395,7 @@ input[type="number"]:focus {
 .screen__container {
   max-width: 100%;
   height: 992px;
-  background-image: url(../../img/screens.png);
+  background-image: url(./../img/screens.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 99%;
@@ -451,7 +451,7 @@ input[type="number"]:focus {
   height: 659px;
   -webkit-filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
   filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
-  background-image: url("../../img/ChatBot2.png");
+  background-image: url("./../img/ChatBot2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -471,21 +471,21 @@ input[type="number"]:focus {
 }
 
 .fetures__card.card1 {
-  background-image: url(../../img/ic_round-restaurant-menu.png);
+  background-image: url(./../img/ic_round-restaurant-menu.png);
   background-position: 0 -10px;
   background-size: 32px 62px;
   background-repeat: no-repeat;
 }
 
 .fetures__card.card2 {
-  background-image: url(../../img/mdi_alien-outline.png);
+  background-image: url(./../img/mdi_alien-outline.png);
   background-position: 0 -10px;
   background-size: 33px 60px;
   background-repeat: no-repeat;
 }
 
 .fetures__card.card3 {
-  background-image: url(../../img/mdi_all-inclusive.png);
+  background-image: url(./../img/mdi_all-inclusive.png);
   background-position: 0% -10%;
   background-size: 41px 53px;
   background-repeat: no-repeat;
@@ -880,7 +880,7 @@ input[type="number"]:focus {
 .media__content {
   background-color: #343434;
   border-radius: 25px;
-  background-image: url(../../img/LineChartt.png);
+  background-image: url(./../img/LineChartt.png);
   background-size: 48% 99%;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -896,8 +896,55 @@ input[type="number"]:focus {
 }
 
 .media__btn {
+  position: relative;
+  z-index: 3;
   margin-left: -10px;
   padding: 15px 67px;
+}
+
+.media__btn::after,
+.media__btn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: #4452FE;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.media__btn::before {
+  right: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.75;
+  transform: none;
+}
+
+.media__btn::after {
+  right: 0;
+  left: 0;
+  z-index: -2;
+  opacity: 0.75;
+  transform: none;
+}
+
+.media__btn:hover::before {
+  transform: translateX(-100%);
+}
+
+.media__btn:hover::after {
+  transform: translateX(100%);
+}
+
+.media__btn:hover {
+  outline: 1px solid #000000;
+}
+
+.media__btn:active {
+  box-shadow: 0px 0px 8px 3px #a9a9a9;
 }
 
 .footer__container {
@@ -947,7 +994,7 @@ input[type="number"]:focus {
   width: 317px;
   padding-top: 9px;
   height: 43px;
-  background-image: url(../../img/bx_bx-map.png);
+  background-image: url(./../img/bx_bx-map.png);
   background-repeat: no-repeat;
   background-size: 44px;
   background-position: left top;
@@ -972,7 +1019,7 @@ input[type="number"]:focus {
   padding-top: 6px;
   width: 317px;
   height: 43px;
-  background-image: url(../../img/ic_baseline.png);
+  background-image: url(./../img/ic_baseline.png);
   background-repeat: no-repeat;
   background-size: 34px 41px;
   background-position: left top;

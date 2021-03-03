@@ -6,7 +6,7 @@
 .media__content {
   background-color: $bcgfeature;
   border-radius: 25px;
-  background-image: url(../../img/LineChartt.png);
+  background-image: url(./../img/LineChartt.png);
   background-size: 48% 99%;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -22,6 +22,53 @@
 }
 
 .media__btn {
+  position: relative;
+  z-index: 3;
   margin-left: -10px;
   padding: 15px 67px;
+}
+
+.media__btn::after,
+.media__btn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: $blue;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.media__btn::before {
+  right: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.75;
+  transform: none;
+}
+
+.media__btn::after {
+  right: 0;
+  left: 0;
+  z-index: -2;
+  opacity: 0.75;
+  transform: none;
+}
+
+.media__btn:hover::before{
+  transform: translateX(-100%);
+} 
+.media__btn:hover::after {
+  transform: translateX(100%);
+
+}
+
+.media__btn:hover {
+  outline:1px solid $black;
+}
+
+.media__btn:active {
+  box-shadow: 0px 0px 8px 3px #a9a9a9;
 }

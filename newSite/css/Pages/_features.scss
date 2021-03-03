@@ -28,7 +28,7 @@
   height: 659px;
   -webkit-filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
   filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
-  background-image: url("../../img/ChatBot2.png");
+  background-image: url("./../img/ChatBot2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -48,21 +48,21 @@
 }
 
 .fetures__card.card1 {
-  background-image: url(../../img/ic_round-restaurant-menu.png);
+  background-image: url(./../img/ic_round-restaurant-menu.png);
   background-position: 0 -10px;
   background-size: 32px 62px;
   background-repeat: no-repeat;
 }
 
 .fetures__card.card2 {
-  background-image: url(../../img/mdi_alien-outline.png);
+  background-image: url(./../img/mdi_alien-outline.png);
   background-position: 0 -10px;
   background-size: 33px 60px;
   background-repeat: no-repeat;
 }
 
 .fetures__card.card3 {
-  background-image: url(../../img/mdi_all-inclusive.png);
+  background-image: url(./../img/mdi_all-inclusive.png);
   background-position: 0% -10%;
   background-size: 41px 53px;
   background-repeat: no-repeat;
