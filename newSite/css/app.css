@@ -902,7 +902,6 @@ input[type="number"]:focus {
 }
 
 .content__block {
-  flex-direction: column;
   padding: 79px 47px 78px 102px;
 }
 
