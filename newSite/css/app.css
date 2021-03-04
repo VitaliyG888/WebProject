@@ -269,6 +269,10 @@ input[type="number"]:focus {
   box-shadow: 0px 0px 4px 1px #a9a9a9;
 }
 
+.header__burgger {
+  display: none;
+}
+
 .hero__container {
   padding-top: 92px;
   padding-bottom: 35px;
@@ -766,9 +770,20 @@ input[type="number"]:focus {
 .partners__logotips {
   margin-bottom: 54px;
   width: 100%;
-  max-height: 67px;
+  max-height: 68px;
   flex-wrap: wrap;
-  justify-content: space-between;
+}
+
+.logotip__left,
+.logotip__right {
+  width: 405px;
+  justify-content: start;
+}
+
+.logotip__left img:not(:last-child),
+.logotip__right img:not(:last-child) {
+  margin-right: 74px;
+  height: 60px;
 }
 
 .partners__btn {
@@ -887,6 +902,7 @@ input[type="number"]:focus {
 }
 
 .content__block {
+  flex-direction: column;
   padding: 79px 47px 78px 102px;
 }
 
@@ -1040,4 +1056,234 @@ input[type="number"]:focus {
 
 .address__soc a:not(:last-child) {
   margin-right: 33px;
+}
+
+@media (max-width: 1110px) {
+  .container {
+    max-width: 750px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__burgger {
+    position: relative;
+    margin-top: -5px;
+    display: block;
+    border: none;
+    width: 36px;
+    height: 28px;
+    background: none;
+    cursor: pointer;
+  }
+  .header__burgger span {
+    position: absolute;
+    display: block;
+    right: 5px;
+    width: 28px;
+    height: 3px;
+    background-color: #ffffff;
+  }
+  .header__burgger span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 24px;
+    height: 3px;
+    display: block;
+    background-color: #ffffff;
+  }
+  .header__burgger span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 13px;
+    width: 36px;
+    height: 3px;
+    display: block;
+    background-color: #ffffff;
+  }
+  .screen__container {
+    height: 500px;
+  }
+  .features__chatbot {
+    margin: 0 auto 100px;
+    width: 80%;
+  }
+  .features__linechart {
+    width: 80%;
+    right: 39px;
+  }
+  .features__cardsblock {
+    margin: 0 auto;
+  }
+  .features__container {
+    padding-bottom: 190px;
+  }
+  .slides__top img {
+    margin-bottom: 17px;
+  }
+  .slides__bottom {
+    display: none;
+  }
+  .testimonials__container {
+    height: auto;
+  }
+  .testimonials__cards {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .employees__item4 {
+    transform: translate(0, 0);
+  }
+  .media__content {
+    flex-direction: column;
+    align-items: center;
+    height: 795px;
+    background-color: #181818;
+    border-radius: 0;
+    background-image: url(./../img/mediaBg2.png);
+    background-size: 100% 60%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  .content__block {
+    padding: 0;
+  }
+  .media__btn {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer__container {
+    flex-wrap: wrap;
+  }
+  .footer__right {
+    margin-bottom: 50px;
+  }
+  .partners__logotips {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
+    max-height: 60px;
+    max-width: 405px;
+  }
+  .partners__logotips img {
+    margin-right: 50px;
+    margin-bottom: 40px;
+  }
+  .logotip__left img:not(:last-child) {
+    margin-right: 75px;
+  }
+  .logotip__right img:not(:last-child) {
+    margin-right: 35px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 450px;
+  }
+  .logo__img {
+    max-width: 70%;
+  }
+  .header__login {
+    padding: 7px 28px;
+  }
+  .header__burgger span {
+    width: 22px;
+    height: 2px;
+  }
+  .header__burgger span::before {
+    top: 11px;
+    width: 15px;
+    height: 2px;
+  }
+  .header__burgger span::after {
+    bottom: 11px;
+    width: 32px;
+    height: 2px;
+  }
+  .hero__title {
+    font-size: 58px;
+  }
+  .subtitle {
+    font-size: 18px;
+    width: 90%;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .hero__learn,
+  .hero__try {
+    padding: 8px 30px;
+  }
+  .screen__container {
+    height: 350px;
+  }
+  .screen__shadow {
+    box-shadow: 0px -50px 50px 0px #313131 inset;
+  }
+  .features__container {
+    padding-bottom: 190px;
+  }
+  .features__chatbot {
+    width: 324px;
+    height: 319px;
+  }
+  .features__linechart {
+    width: 72%;
+    bottom: -64px;
+  }
+  .contents__cards {
+    flex-wrap: wrap;
+  }
+  .cards__work,
+  .cards__design {
+    width: 100%;
+  }
+  .cards__work {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .partners__logotips {
+    margin-bottom: 214px;
+  }
+  .testimonials__container {
+    padding-bottom: 82px;
+  }
+  .logotip__left img:not(:last-child) {
+    margin-right: 50px;
+  }
+  .logotip__right img:not(:last-child) {
+    margin-right: 3px;
+  }
+  .employees__item {
+    width: 280px;
+    height: 500px;
+  }
+  .media__container {
+    padding-bottom: 150px;
+  }
+  .media__title {
+    margin-bottom: 37px;
+    max-width: 340px;
+    text-align: center;
+  }
+  .media__content {
+    align-items: center;
+    height: 700px;
+    background-size: 100% 40%;
+  }
+  .footer__right {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .footer__nav:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  .address__destination span {
+    display: block;
+    font-size: 16px;
+    width: 241px;
+  }
 }

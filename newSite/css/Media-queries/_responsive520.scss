@@ -1,0 +1,137 @@
+@media (max-width: 640px) {
+  .container {
+    max-width: 450px;
+  }
+
+  .logo__img {
+    max-width: 70%;
+  }
+
+  .header__login {
+    padding: 7px 28px;
+  }
+
+  .header__burgger span {
+    width: 22px;
+    height: 2px;
+  }
+
+  .header__burgger span::before {
+    top: 11px;
+    width: 15px;
+    height: 2px;
+  }
+
+  .header__burgger span::after {
+    bottom: 11px;
+    width: 32px;
+    height: 2px;
+  }
+
+  .hero__title {
+    font-size: 58px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  .hero__learn,
+  .hero__try {
+    padding: 8px 30px;
+  }
+
+  .screen__container {
+    height: 350px;
+  }
+
+  .screen__shadow {
+    box-shadow: 0px -50px 50px 0px #313131 inset;
+  }
+
+
+  .features__container {
+    padding-bottom: 190px;
+  }
+
+  .features__chatbot {
+    width: 324px;
+    height: 319px;
+  }
+
+  .features__linechart {
+    width: 72%;
+    bottom: -64px;
+  }
+
+  .contents__cards {
+    flex-wrap: wrap;
+  }
+
+  .cards__work,
+  .cards__design {
+    width: 100%;
+  }
+
+  .cards__work {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .partners__logotips {
+    margin-bottom: 214px;
+  }
+
+  .testimonials__container {
+    padding-bottom: 82px;
+  }
+
+  .logotip__left img:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .logotip__right img:not(:last-child) {
+    margin-right: 3px;
+  }
+
+  .employees__item {
+    width: 280px;
+    height: 500px;
+  }
+
+  .media__container {
+    padding-bottom: 150px;
+  }
+
+  .media__title {
+    margin-bottom: 37px;
+    max-width: 340px;
+    text-align: center;
+  }
+
+  .media__content {
+    align-items: center;
+    height: 700px;
+    background-size: 100% 40%;
+  }
+
+  .footer__right {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .footer__nav:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .address__destination span {
+    display: block;
+    font-size: 16px;
+    width: 241px;
+  }
+}
