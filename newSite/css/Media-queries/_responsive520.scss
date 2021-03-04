@@ -29,7 +29,7 @@
   }
 
   .hero__title {
-    font-size: 58px;
+    font-size: 50px;
   }
 
   .subtitle {
@@ -38,12 +38,12 @@
   }
 
   h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   .hero__learn,
   .hero__try {
-    padding: 8px 30px;
+    padding: 11px 30px;
   }
 
   .screen__container {
@@ -85,7 +85,12 @@
 
   .partners__logotips {
     margin-bottom: 214px;
+    max-width: 290px;
   }
+
+  .logotip__left, .logotip__right {
+    width: 287px;
+}
 
   .testimonials__container {
     padding-bottom: 82px;
